@@ -23,7 +23,7 @@ res.sendFile(path.join(__dirname, 'ui', 'article-three.html'));
 
 app.get('/article_2', function(req,res){
     
-res.sendFile(path.join(__dirname, 'ui', 'article-three.html'));
+res.sendFile(path.join(__dirname, 'ui', 'article-two.html'));
 })
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
